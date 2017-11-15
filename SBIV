@@ -1,0 +1,4 @@
+        0615: define_AS_pack_begin 18@ 
+        0605: actor -1 perform_animation "POINTUP_IN" IFP "PED" framedelta 4.0 loop 0 lockX 0 lockY 0 lockF 0 time 5 
+        0618: assign_actor $PLAYER_ACTOR to_AS_pack 18@ 
+        061B: remove_references_to_AS_pack 18@ 
